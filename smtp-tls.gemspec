@@ -1,5 +1,5 @@
 Gem::Specification.new do |s|
-  s.name = %q{SMTP-TLS}
+  s.name = %q{smtp-tls}
   s.version = "1.0"
   s.date = "2008-5-21"
   s.summary = "SMTP TLS (SSL) extension for Net::SMTP"
