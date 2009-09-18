@@ -9,25 +9,25 @@ I didn't author this, so I can't make any claims about it's worth, licensing, or
 == Ruby on Rails
 
 If you're using Ruby on Rails >= 2.2 and Ruby v1.8.7 or greater, you 
-((<don't need this|URL:http://github.com/rails/rails/commit/732c724df61bc8b780dc42817625b25a321908e4>)). Just set +enable_starttls_auto+ in your +ActionMailer+ config:
+{don't need this}[http://github.com/rails/rails/commit/732c724df61bc8b780dc42817625b25a321908e4]. Just set +enable_starttls_auto+ in your +ActionMailer+ config:
 
-    ActionMailer::Base.smtp_settings = {
-      :enable_starttls_auto => true,
-      :address => 'smtp.gmail.com',
-      :port => 587,
-      :domain => 'example.com',
-      :authentication => :plain,
-      :user_name => 'user',
-      :password => 'secret'
-    }
+  ActionMailer::Base.smtp_settings = {
+    :enable_starttls_auto => true,
+    :address => 'smtp.gmail.com',
+    :port => 587,
+    :domain => 'example.com',
+    :authentication => :plain,
+    :user_name => 'user',
+    :password => 'secret'
+  }
 
 == Dependencies
 
-* +Net::SMTP+
+* <tt>Net::SMTP</tt>
 * +OpenSSL+
 
 == Usage
 
-  <tt>require 'smtp-tls'</tt>
+  require 'smtp-tls'
 
 Then get back to business as usual. 
