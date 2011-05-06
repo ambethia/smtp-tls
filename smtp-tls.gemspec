@@ -11,7 +11,6 @@ Gem::Specification.new do |s|
   s.email = %q{jasper@ambethia.com}
   s.extra_rdoc_files = ["README.rdoc"]
   s.files = ["README.rdoc", "VERSION.yml", "lib/smtp-tls.rb"]
-  s.has_rdoc = true
   s.homepage = %q{http://github.com/ambethia/smtp-tls}
   s.rdoc_options = ["--inline-source", "--charset=UTF-8"]
   s.require_paths = ["lib"]
